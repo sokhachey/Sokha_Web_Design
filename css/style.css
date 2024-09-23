@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/* nav */
+.nav-container{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    width: 250px;
+    height: 70px;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-item{
+    margin: 15px;
+}
+.navbar-btn{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 0px 15px;
+    background-color: black;
+    color: white;
+}
+input{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.navbar-btn:hover{
+    transform: translateY(-5px)
+}
+/* section1 */
+.company-registration-section{
+    padding: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.main-registration-content li{
+    color: white;
+}
+.main-registration-content{
+    width: 50%;
+    padding-right: 50px;
+}
+.main-registration-content h1{
+    font-size: 70px;
+}
+.main-registration-content p{
+    font-size: 22px;
+    margin: 30px 0px;
+}
+.main-registration-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-registration-content li{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+li img{
+    width: 35px;
+    height: 35px;
+}
+li h5{
+    font-size: 22px;
+}
+/*  */
+.main-registration-form{
+    width: 50%;
+    padding-left: 50px;
+}
+.main-registration-form form{
+    background-color:   white;
+    color: black;
+    border-radius: 30px;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.form-info{
+    display: flex;
+    gap: 30px;
+}
+.form-info label{
+    font-weight: bold;
+}
+.form-info input{
+    padding: 25px 0px;
+    width: 95%;
+    padding-left: 15px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.form-info input:hover{
+    border: 1px solid blue;
+}
+.form-btn{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgb(255, 70, 70);
+    border: none;
+}
+.form-btn:hover{
+    background-color: black;
+    transform: translateY(-5px);
+}
+.firstname , .lastname , .email , .phone-number , .company , .role{
+    width: 50%;
+    padding-left: 10px;
+}
+/* section2 */
+.company-partner-section{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.company-partner-section h2{
+    text-align: center;
+    color: gray;
+    font-size: 50px;
+}
+.company-partner-section img{
+    width: 150px;
+    height: 30px;
+}
+.partners{
+    margin-top: 50px;
+    display: flex;
+}
+.partner{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.partner p{
+    font-size: 30px;
+    color: gray;
+}
+.company p {
+    font-size: 20px;
+}
+.company h4{
+    font-size: 22px;
+}
+.partner:nth-child(1){
+    padding-right: 50px;
+    border-right: 1px solid rgb(194, 194, 194);
+    gap: 50px;
+}
+.partner:nth-child(2){
+    padding: 0px 50px;
+    border-right: 1px solid rgb(194, 194, 194);
+    gap: 150px;
+}
+.partner:nth-child(3){
+    padding-left: 50px;
+    gap:    120px;
+}
+/* section3 */
+.company-services-section{
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+}
+.service{
+    width: 35%;
+}
+.service img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.service h3{
+    margin: 15px 0px;
+}
+.service p{
+    font-size: 20px;
+    color: rgb(95, 95, 95);
+}
+/* section4 */
+.company-call-to-call-service-section{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-call-content{
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.call-to-call-content h1{
+    font-size: 60px;
+}
+.call-to-call-content p{
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+    margin: 20px 0px;
+}
+.call-to-call-img{
+    width: 50%;
+    padding-left: 50px;
+}
+.call-to-call-img img{
+    width: 500px;
+}
+.group-btn{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.btn{
+    padding: 20px 35px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(255, 80, 80);
+    color: white;
+    border: none;
+}
+#talk-to-sale{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.btn:hover{
+    transform: translateY(-5px)
+}
+#talk-to-sale:hover{
+    transform: translateY(-5px);
+    background-color: black;
+    color: white;
+}
+/* section5 */
+.company-process-section{
+    padding: 100px;
+}
+.red{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 73, 73);
+}
+.company-process-section h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px 0px;
+}
+.company-process-section p{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.our-processes{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.process{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.process span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    color: red;
+    background-color: rgb(255, 184, 184);
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.process p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.process h3{
+    font-size: 25px;
+    text-align: center;
+}
+/* section6 */
+.company-features-section{
+    padding: 100px;
+}
+.company-features-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.feature img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.our-features{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.center{
+    text-align: center;
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    margin: 25px 200px;
+}
+.features{
+    display: flex;
+    gap: 30px;
+}
+.feature{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 50px;
+    display: flex;
+    gap: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 20px;
+}
+.feature-content{
+    padding-right: 70px;
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.feature-content p{
+    color: rgb(90, 90, 90);
+}
+/* section7 */
+.company-fqa-section{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+}
+.fqa-cards{
+    display: flex;
+    gap: 30px;
+}
+.fqa-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 50px;
+    border: 1px solid rgb(167, 167, 167);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fqa-card-question{
+    display: flex;
+    justify-content: space-between;
+}
+.question{
+    width: 85%;
+    font-size: 35px;
+}
+.fqa-card p:nth-child(2){
+    margin-top: 15px;
+    font-size: 20px;
+    width: 85%;
+    color: rgb(90, 90, 90);
+}
+.fqa-card-question span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+/* section8 */
+.footer-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.footer-menu-section{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.languages-section{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left ul{
+    display: flex;
+    gap: 20px;
+}
+li , a{
+    color: black;
+}
+li span{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
